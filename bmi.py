@@ -10,4 +10,9 @@ def calculate_bmi(height, weight):
         print("You are at normal weight")
     elif BMI > 25.0:
         print("You are overweight")
-calculate_bmi(weight = 57, height = 1.73)
+def main():
+    calculate_bmi(weight = 57, height = 1.73)
+    print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to Python")
+
+if __name__ == '__main__':
+    main()
